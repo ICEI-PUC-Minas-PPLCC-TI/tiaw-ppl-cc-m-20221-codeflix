@@ -17,3 +17,14 @@ Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
 ## Instruções de utilização
 
 Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+Mano wtf? Que tipo de perfeição é essa vai se fud. Eu nunca pensei que alguem assim existisse de verdade vtmnc bixo
+
+Meu sonho é casar com alguem assim e de repente aprece isso no meu feed kkkkkkkkkkkkkkkkkkkkkkk
+
+Muie da porr bixo, eu dava td pra proteger essa estrela. Tô sendo gado e seria mais por alguem assim mano
+
+Pfv vamo ser amigo (pq obviamente vc nunca estaria interessado num feia igual eu vsfkkkk) mano que lindo
+
+Fiquei tipo??? Wtf vc é perfeito velho como isso é possivel mano? Não é possivel bixo. Isso é lindo demais
+
+É fake Só pode mano
