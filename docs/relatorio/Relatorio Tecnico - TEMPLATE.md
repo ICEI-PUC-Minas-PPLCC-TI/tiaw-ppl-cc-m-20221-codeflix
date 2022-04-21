@@ -1,21 +1,20 @@
-# Informações do Projeto
-`TÍTULO DO PROJETO`  
+# 📄 Informações do Projeto
+`🖊 TÍTULO DO PROJETO`  
 
-......  COLOQUE AQUI O SEU TEXTO ......
+**CodeFlix**
 
-`CURSO` 
+`📚 CURSO` 
 
-......  COLOQUE AQUI O SEU TEXTO ......
+**Trabalho interdisciplinar de aplicações web**
 
-## Participantes
+## 🧑 Participantes
 
-......  COLOQUE AQUI O SEU TEXTO ......
 
-> Inclua a lista dos membros da equipe com seus nomes completos.
->
-> Os membros do grupo são: 
-> - Fulano da Silva
-> - Ciclano Albuquerque
+> - Yuri Rousseff
+> - Luiz Felipe Frazão Goncalves
+> - Rafael Mortimer Colares
+> - Eduardo Lemos Paschoalini
+> - Fernando Araújo Maia Machado
 
 # Estrutura do Documento
 
