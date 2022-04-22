@@ -9,7 +9,6 @@ Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
 * Fernando Araújo Maia Machado
 * Rafael Mortimer 
 * Yuri Rousseff
-* Isabella
 
 ## 👨‍🏫 Professores responsáveis
 
