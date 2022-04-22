@@ -1,5 +1,5 @@
 # 📄 Informações do Projeto
-`🖊 CodeFlix`  
+`👨‍💻 CodeFlix`  
 
 `📚 Trabalho interdisciplinar de aplicações web` 
 
