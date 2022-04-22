@@ -1,14 +1,10 @@
 # 📄 Informações do Projeto
-`🖊 TÍTULO DO PROJETO`  
+`🖊 CodeFlix`  
 
-**CodeFlix**
+`📚 Trabalho interdisciplinar de aplicações web` 
 
-`📚 CURSO` 
-
-**Trabalho interdisciplinar de aplicações web**
 
 ## 🧑 Participantes
-
 
 > - Yuri Rousseff
 > - Luiz Felipe Frazão Goncalves
