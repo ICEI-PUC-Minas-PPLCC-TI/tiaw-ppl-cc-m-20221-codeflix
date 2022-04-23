@@ -84,8 +84,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |--------------------|-------------------------------------------|----------------------------------------|
 |Quandale dingle     | Aprender a programação de graça           | Não gastar dinheiro e economizar       |
 |Pedro OSalve        | Achar um curso de programação em português| Não sei falar em ingles                |
-|Luana Santos        | Saber programar sem pagar nada            | A vaga que eu quero, precisa de conhecimento  em programação|
-
+|Luana Santos        | Saber programar sem nenhum custo            | A vaga que eu quero precisa de conhecimento  em programação|
+|Isadora Guimaroes   | Saber o básico de programação             | Ter uma renda extra como freelancer  |
 
 ## Requisitos
 
