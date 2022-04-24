@@ -71,10 +71,22 @@ Jovens brasileiros de **todas as idades**, que querem aprender programação sem
 
 > ......  COLOQUE AQUI O SEU TEXTO ......
 
-## Personas e Mapas de Empatia
+## 🥼 Personas
 
-> ......  COLOQUE AQUI O SEU TEXTO ......
+![Persona1](images/persona1.png)
+![Persona2](images/persona2.png)
+![Persona3](images/persona3.png)
 
+
+## 🧪 Mapas de Empatia
+
+> Adicionar mapa de empatia de CADA Pessoa
+> 
+> Pessoa1
+> 
+> Pessoa2
+> 
+> Pessoa3
 
 ## 🏠 Histórias de Usuários
 
