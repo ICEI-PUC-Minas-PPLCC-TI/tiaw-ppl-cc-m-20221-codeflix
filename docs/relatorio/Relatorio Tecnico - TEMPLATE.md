@@ -80,13 +80,12 @@ Jovens brasileiros de **todas as idades**, que querem aprender programação sem
 
 ## 🧪 Mapas de Empatia
 
-> Adicionar mapa de empatia de CADA Pessoa
-> 
-> Pessoa1
-> 
-> Pessoa2
-> 
-> Pessoa3
+**Fernando da Silva**
+![Empatia1](images/empatia1.png)
+**Luisa Solza**
+![Empatia2](images/empatia2.png)
+**Pedro Cunha**
+![Empatia3](images/empatia3.png)
 
 ## 🏠 Histórias de Usuários
 
