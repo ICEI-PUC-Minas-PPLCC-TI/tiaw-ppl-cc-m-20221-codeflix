@@ -7,7 +7,7 @@
 ## 🧑 Participantes
 
 > - Yuri Rousseff
-> - Luiz Felipe Frazão Goncalves
+> - Luiz Felipe Goncalves
 > - Rafael Mortimer Colares
 > - Eduardo Lemos Paschoalini
 > - Fernando Araújo Maia Machado
