@@ -256,38 +256,20 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Controle de Versão
 
-......  COLOQUE AQUI O SEU TEXTO ......
+O Git foi o software de controle de versão escolhido. O repositório Git é hospedado no GitHub.
 
-> Discuta como a configuração do projeto foi feita na ferramenta de
-> versionamento escolhida. Exponha como a gerência de tags, merges,
-> commits e branchs é realizada. Discuta como a gerência de issues foi
-> realizada.
-> A ferramenta de controle de versão adotada no projeto foi o
-> [Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-> foi utilizado para hospedagem do repositório `upstream`.
-> 
-> O projeto segue a seguinte convenção para o nome de branchs:
-> 
-> - `master`: versão estável já testada do software
-> - `unstable`: versão já testada do software, porém instável
-> - `testing`: versão em testes do software
-> - `dev`: versão de desenvolvimento do software
-> 
-> Quanto à gerência de issues, o projeto adota a seguinte convenção para
-> etiquetas:
-> 
-> - `bugfix`: uma funcionalidade encontra-se com problemas
-> - `enhancement`: uma funcionalidade precisa ser melhorada
-> - `feature`: uma nova funcionalidade precisa ser introduzida
->
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
-> - [5 Git Workflows & Branching Strategy to deliver better code](https://zepel.io/blog/5-git-workflows-to-improve-development/)
->
-> **Exemplo - GitHub Feature Branch Workflow**:
->
-> ![Exemplo de Wireframe](images/Github-Workflow.png)
+Como o projeto em questão é relativamente pequeno, optamos pela não introdução de metodologias mais bem formuladas (tais como [Git Flow](https://www.atlassian.com/br/git/tutorials/comparing-workflows/gitflow-workflow) ou [Desenvolvimento Baseado em Tronco](https://www.atlassian.com/br/continuous-delivery/continuous-integration/trunk-based-development)) para economizarmos tempo ao não lidar com as burocracias introduzidas por tais modelos.
+
+Evidentemente, dado um eventual escalonamento no escopo e tamanho do projeto, não teremos outra opção senão introduzir um modelo mais adequado a essa eventual crescente complexidade.
+
+Por ora, todavia, foi resolvido adotar este modelo:
+- Manutenção de uma branch `main`, a partir da qual novos deploys do site serão feitos. Tais deploys podem ser feitos automaticamente através de integração com o Netlify.
+- Cada nova feature é introduzida em uma branch separada, que poderá ser unificada à `main` através da solicitação de _pull requests_, que deverão ser revisados por, _no mínimo_, **dois** outros integrantes do grupo. Este requerimento pode ser imposto através das configurações do repositório.
+- A branch `main` é protegida, isto é, não é possível modificá-la diretamente.
+
+Eventuais _bugs_ ou _feature-requests_ devem ser registrados no _issue tracker_ do repositório GitHub. As tags utilizadas devem ser, respectivamente, `bug` e `feature-request`.
+
+Introduziremos _workflows_ utilizando GitHub Actions para testar o código. Inicialmente utilizando ferramentas de análise semântica (i.e. ESLint) e sintática (i.e. Prettier). Eventualmente, se testes forem introduzidos, também serão verificados nessa etapa. Para que uma PR possa ser aprovada, tal _workflow_ deve suceder.
 
 # **############## SPRINT 1 ACABA AQUI #############**
 
