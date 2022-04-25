@@ -106,8 +106,16 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| Acompanhar o progresso do usuário ao longo do tempo | ALTA | 
+|RF-002| Implementar exercícios para que o aluno pratique   | MÉDIA |
+|RF-003| Fórum de discussões abaixo dos vídeos  | MÉDIA |
+|RF-004| Acrescentar uma meta diária/semanal do aluno  | MÉDIA |
+|RF-005| Gamificação do conteúdo  | BAIXA |
+|RF-006| Conteúdos textuais e áudio-visuais  | ALTA |
+|RF-007| Implementar Anúncios  | ALTA |
+|RF-008| Área de avaliação dos cursos  | BAIXA |
+
+
 
 
 ### Requisitos não Funcionais
