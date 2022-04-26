@@ -69,7 +69,6 @@ Jovens brasileiros de **todas as idades**, que querem aprender programação sem
 
 # Especificações do Projeto
 
-> ......  COLOQUE AQUI O SEU TEXTO ......
 
 ## 🥼 Personas
 
