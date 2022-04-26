@@ -97,11 +97,11 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Luana Santos        | Saber programar sem nenhum custo            | A vaga que eu quero precisa de conhecimento  em programação|
 |Isadora Guimaroes   | Saber o básico de programação             | Ter uma renda extra como freelancer  |
 
-## Requisitos
+## 🎍 Requisitos
 
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
 
-### Requisitos Funcionais
+### 🎡 Requisitos Funcionais
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
@@ -117,7 +117,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 
 
-### Requisitos não Funcionais
+### 🧱Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
