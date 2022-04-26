@@ -130,7 +130,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-007| Processamento de requisições do usuário em baixa latência | MÉDIA |
 
 
-## Restrições
+## ⚠ Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
 
@@ -148,12 +148,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |10| Todos os desenvolvedores deverão submeter pull-requests para a avaliação de, no mínimo, dois outros pares |
 
 
-> Enumere as restrições à sua solução. Lembre-se de que as restrições
-> geralmente limitam a solução candidata.
-> 
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
 
 # Projeto de Interface
