@@ -154,6 +154,14 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
+|03| O projeto so pode ter a participacao de no maximo 6 pessoas|
+|04| O projeto tem que ser desenvolvido apenas nas seguintes linguagens: HTML, CSS e JavaScript|
+|05| O projeto deve ser feito atraves da metodologia agile |
+|06| O projeto devera conter 4 sprints                     |
+|07| O projeto deve ter um video de apresentacao da plataforma|
+|08| O projeto deve seguir convenções de codificação e padrões bem estabelecidos  |
+|09| O projeto deve ser versionado utilizando o controle de versão Git  |
+|10| Todos os desenvolvedores deverão submeter pull-requests para a avaliação de, no mínimo, dois outros pares |
 
 
 > Enumere as restrições à sua solução. Lembre-se de que as restrições
