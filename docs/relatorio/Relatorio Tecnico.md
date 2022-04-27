@@ -218,9 +218,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > - [Gerência de projetos - Trello com Scrum](https://www.youtube.com/watch?v=DHLA8X_ujwo)
 > - [Tutorial Slack](https://slack.com/intl/en-br/)
 
-## Divisão de Papéis
-
-......  COLOQUE AQUI O SEU TEXTO ......
+## 📃 Divisão de Papéis
 
 
 | Aluno  | Função              |
