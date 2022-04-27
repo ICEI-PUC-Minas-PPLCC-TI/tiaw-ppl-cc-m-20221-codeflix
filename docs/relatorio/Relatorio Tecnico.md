@@ -222,12 +222,14 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ......  COLOQUE AQUI O SEU TEXTO ......
 
-> Apresente a divisão de papéis e tarefas entre os membros do grupo.
->
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
 
+| Aluno  | Função              |
+|-----------|-------------------------|
+|Yuri Rousseff  | Design & Organiza funções e horários |
+| Eduardo Lemos | Front-End | 
+| Rafael | Design |
+| Luiz | Cria novas features e ajuda no front-end |
+| Fernando | Front-End |
 
 ## 🔨 Ferramentas
 
