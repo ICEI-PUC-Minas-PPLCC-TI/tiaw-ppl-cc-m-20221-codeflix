@@ -150,14 +150,11 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 
 
-# Projeto de Interface
+# 🎨 Projeto de Interface
 
-......  COLOQUE AQUI O SEU TEXTO DE INTRODUÇÃO ......
-
-> Apresente as principais interfaces da solução. Discuta como 
-> foram elaboradas de forma a atender os requisitos funcionais, não
-> funcionais e histórias de usuário abordados nas [Especificações do
-> Projeto](#especificações-do-projeto).
+O foco da interface, além de **responsividade** será a facilidade da utilização da mesma. Utilizando tecnicas de UX design, entendendo o comportamento do usuário, removendo quaisquer obstaculos. 
+Fizemos o wireframe de média fidelidade, já demonstrando a paleta de cor, mas por enquanto sem seguir a técnica 60/30/10.
+Para o design final, utilizaremos o plugin *Visual Eyes* no figma, que é um plugin que com a ajuda de inteligência artificial, prevê a visão do usuário "escaniando" a interface. Seguindo a regra que os usuários não leem o site, mas sim, o escaneam, deixamos bem claro os CTA's e funções mais importantes.
 
 ## User Flow
 
