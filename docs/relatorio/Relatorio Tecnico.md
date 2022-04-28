@@ -162,45 +162,27 @@ Para o design final, utilizaremos o plugin *Visual Eyes* no figma, que é um plu
  ![UserFlow](images/userflow.png)
 
 
-## Wireframes
+## 📨 Wireframes
 
-......  INCLUA AQUI OS WIREFRAMES DAS TELAS DA APLICAÇÃO COM UM BREVE DESCRITIVO ......
+**Login**
+![wire1](images/wire1.png)
 
-> Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a
-> estrutura de um site web e seu relacionamentos entre suas
-> páginas. Um wireframe web é uma ilustração semelhante ao
-> layout de elementos fundamentais na interface.
-> 
-> **Links Úteis**:
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> 
-> **Exemplo**:
-> 
-> ![Exemplo de Wireframe](images/wireframe-example.png)
+**Main**
+![wire2](images/wire2.png)
 
+**Main**
+![wire3](images/wire3.png)
 
-# Metodologia
+**Main**
+![wire3](images/wire3.png)
 
-......  COLOQUE AQUI O SEU TEXTO ......
+**Main**
+![wire3](images/wire3.png)
 
-> Nesta parte do documento, você deve apresentar a metodologia 
-> adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, 
-> a divisão de papéis e tarefas, as ferramentas empregadas e como foi realizada a
-> gestão de configuração do projeto via GitHub.
->
-> Coloque detalhes sobre o processo de Design Thinking e a implementação do Framework Scrum seguido
-> pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar
-> o andamento do projeto, a execução das tarefas e o status de desenvolvimento
-> da solução.
-> 
-> **Links Úteis**:
-> - [Tutorial Trello](https://trello.com/b/8AygzjUA/tutorial-trello)
-> - [Gestão ágil de projetos com o Trello](https://www.youtube.com/watch?v=1o9BOMAKBRE)
-> - [Gerência de projetos - Trello com Scrum](https://www.youtube.com/watch?v=DHLA8X_ujwo)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+# 🔥 Metodologia
+Para a nossa organização, utilizamos o Trello.
+E nossas reuniões foram feitas no discord por volta de 4 dias na semanas, 20 minutos cada meeting. 
+
 
 ## 📃 Divisão de Papéis
 
@@ -209,7 +191,7 @@ Para o design final, utilizaremos o plugin *Visual Eyes* no figma, que é um plu
 |-----------|-------------------------|
 |Yuri Rousseff  | Design & Organiza funções e horários |
 | Eduardo Lemos | Front-End | 
-| Rafael | Design |
+| Rafael | Auxilia nos termos técnicos e programação front-end |
 | Luiz | Cria novas features e ajuda no front-end |
 | Fernando | Front-End |
 
