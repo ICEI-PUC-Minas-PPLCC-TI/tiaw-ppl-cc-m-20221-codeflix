@@ -174,6 +174,9 @@ Para o design final, utilizaremos o plugin *Visual Eyes* no figma, que é um plu
 
 ![wire5](images/wire5.png)
 
+## 🚠 Protótipo interativo
+https://www.figma.com/proto/8834otwtowQNY0KO9pTK7P/Codeflix?node-id=503%3A3188&scaling=min-zoom&page-id=7%3A3236&starting-point-node-id=503%3A3188
+
 # 🔥 Metodologia
 Para a nossa organização, utilizamos o Trello.
 E nossas reuniões foram feitas no discord por volta de 4 dias na semanas, 20 minutos cada meeting. 
