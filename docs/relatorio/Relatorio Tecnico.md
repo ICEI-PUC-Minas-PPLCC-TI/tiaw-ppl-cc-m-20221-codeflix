@@ -164,20 +164,15 @@ Para o design final, utilizaremos o plugin *Visual Eyes* no figma, que é um plu
 
 ## 📨 Wireframes
 
-**Login**
 ![wire1](images/wire1.png)
 
-**Main**
 ![wire2](images/wire2.png)
 
-**Main**
 ![wire3](images/wire3.png)
 
-**Main**
-![wire3](images/wire3.png)
+![wire4](images/wire4.png)
 
-**Main**
-![wire3](images/wire3.png)
+![wire5](images/wire5.png)
 
 # 🔥 Metodologia
 Para a nossa organização, utilizamos o Trello.
