@@ -1,0 +1,206 @@
+.main-title-desc {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  color: #b3b0b8;
+}
+
+.com-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.com-main-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.com-new-topic {
+  padding: 10px 15px;
+
+  border: 0;
+  background: linear-gradient(271.08deg, #e8472c 10.85%, #e53d37 49.08%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  cursor: pointer;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration: none;
+
+  color: #eaeaea;
+}
+
+.com-new-topic:hover {
+  text-decoration: underline;
+}
+
+/* Cards
+ ******************************************************************************/
+
+div#cards-zone {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-around;
+}
+
+.card {
+  width: 32%;
+  background: #1e1f24;
+  border-left: 5px solid #e85d04;
+  border-radius: 10px;
+  padding: 16px 20px;
+  margin-bottom: 2rem;
+}
+
+.card__title a {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 24px;
+  color: #eaeaea;
+  text-decoration: none;
+}
+
+p.card__desc {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #b3b0b8;
+  margin: 0.9rem 0 1rem 0;
+}
+
+.card__footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__tag-wrapper {
+  align-self: flex-end;
+}
+
+.tag {
+  background: rgba(232, 93, 4, 0.6);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  padding: 2px 6px;
+  font-size: 13px;
+}
+
+.tag-D {
+  background: rgba(4, 95, 232, 0.6);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card__title a:hover {
+  text-decoration: underline;
+}
+
+.card__author-profile img {
+  width: 32px;
+  height: 32px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(.png);
+  border-radius: 100px;
+}
+
+.card__author-profile {
+  display: flex;
+  gap: 8px;
+}
+
+.card__author-profile > div > * {
+  display: block;
+}
+
+.card__author-profile > div > span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  color: #eaeaea;
+}
+
+.card__author-profile > div > time {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 15px;
+  color: #b3b0b8;
+}
+
+@media screen and (max-width: 1000px) {
+  .card {
+    width: 48%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .card {
+    width: 98%;
+    margin-bottom: 0.5rem;
+  }
+}
+
+/* Create Topic Form
+ ******************************************************************************/
+
+input,
+select,
+textarea {
+  background: #1e1f24;
+  border: 1px solid #454652;
+  border-radius: 4px;
+  width: 100%;
+  color: #eeee;
+  font-size: 18px;
+  padding: 5px;
+  font-family: "Poppins";
+}
+
+.group {
+  margin-bottom: 1.5rem;
+}
+
+.group label {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-size: 16px;
+}
+
+.group input,
+.group select {
+  width: 100%;
+  height: 40px;
+  padding: 5px;
+  font-size: 18px;
+  font-family: "Poppins";
+}
+
+form#topic-form {
+  margin-top: 2rem;
+}
+
+/* Ver Tópico
+ **************************************************************************************************/
+
+#view-topic-zone .card__footer {
+  margin-top: 2rem;
+  border-top: dashed 1px #454652;
+  padding-top: 2rem;
+}
+
+p.topic-description {
+  margin-top: 2rem;
+}
