@@ -48,7 +48,7 @@ for (const entry of all) {
   // so do you really think XSS would make things any worse??!?!
   div.innerHTML = `
     <h3 class="card__title">
-      <a href="./view.html?id=${entry.id}">${entry.title}</a>
+      <a href="/comunidade/view.html#${entry.id}">${entry.title}</a>
     </h3>
     <p class="card__desc">${entry.description}</p>
     <footer class="card__footer">

@@ -191,3 +191,16 @@ textarea {
 form#topic-form {
   margin-top: 2rem;
 }
+
+/* Ver Tópico
+ **************************************************************************************************/
+
+#view-topic-zone .card__footer {
+  margin-top: 2rem;
+  border-top: dashed 1px #454652;
+  padding-top: 2rem;
+}
+
+p.topic-description {
+  margin-top: 2rem;
+}
