@@ -233,11 +233,23 @@ Introduziremos _workflows_ utilizando GitHub Actions para testar o código. Inic
 
 # Projeto da Solução
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Criar uma plataforma que possui curssos de programação gratis para pessoas com baixa renda.
 
 ## Tecnologias Utilizadas
 
 ......  COLOQUE AQUI O SEU TEXTO ......
+
+Foram utilizados os seguintes conceitos e tecnologias:
+Conceito de gameficação para aumentar o engajamento do usuário com o site.
+Conteúdos visuais e áudio-visuais.
+Conceito UX design foi utilizado no desenvolvimento do front end.
+Foi utilizada o Visual Eyes, sendo uma inteligência artificial que prevê para onde o usuário olhará no seu site.
+Foi utilizada a plataforma netlify para hospedar o site.
+
+Linguagens utilizadas na criação do site:
+HTML
+CSS
+JavaScript
 
 > Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
 > problema, ou seja, implementar a sua solução. Liste todas as
@@ -256,6 +268,14 @@ Introduziremos _workflows_ utilizando GitHub Actions para testar o código. Inic
 
 ......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
 
+Navegador:
+HTML + CSS + JavaScript
+Local Storage
+
+Internet
+
+Hospedagem:
+Netlify
 > Inclua um diagrama da solução e descreva os módulos e as tecnologias
 > que fazem parte da solução. Discorra sobre o diagrama.
 > 
