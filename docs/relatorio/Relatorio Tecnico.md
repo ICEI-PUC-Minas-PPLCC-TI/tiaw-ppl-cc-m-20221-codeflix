@@ -270,11 +270,7 @@ Netlify
 
 # Avaliação da Aplicação
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente os cenários de testes utilizados na realização dos testes da
-> sua aplicação. Escolha cenários de testes que demonstrem os requisitos
-> sendo satisfeitos.
+Foram criados planos de testes para apresentar o funcionamento das situações requisitadas e restritas do projeto, a separação entre testes diferentes se mostra um conhecimento útil para os desenvolvedores, que precisam saber o que pode ocorrer na interação do usuário com o site.
 
 ## Plano de Testes
 
