@@ -1,0 +1,33 @@
+:root {
+  --course-color: #f0db4f;
+}
+
+/*
+  Estilo global
+*/
+
+.numeration {
+  color: var(--course-color);
+  border: solid 2px var(--course-color);
+}
+
+/*
+  Componente de vídeo
+*/
+
+.conteudo {
+  border-left: 5px solid var(--course-color);
+}
+
+.assistir {
+  border: solid 2px var(--course-color);
+  color: var(--course-color);
+}
+
+/*
+  Porcentagem
+*/
+
+.progress-course div {
+  width: 10%;
+}

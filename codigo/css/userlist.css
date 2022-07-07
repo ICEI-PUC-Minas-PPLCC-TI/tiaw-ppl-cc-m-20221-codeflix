@@ -1,0 +1,137 @@
+:root {
+  --white: #eaeaea;
+  --gray1: #b3b0b8;
+  --gray2: #7c7a80;
+  --black1: #121212;
+  --black2: #1e1f24;
+  --black3: #2b2c33;
+  --black4: #454652;
+  --primary: #d72757;
+}
+
+body {
+  background-color: var(--black1);
+}
+
+main {
+  max-width: 1140px;
+  margin: 0px auto;
+  margin-top: 48px;
+}
+
+h1.title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+h1.title span {
+  color: var(--primary);
+}
+
+/*
+    Lista de usuarios
+*/
+
+div.users-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 24%);
+  margin-top: 32px;
+  justify-content: space-between;
+}
+
+/*
+    Componente usuario
+*/
+
+div.user-component {
+  background-color: var(--black2);
+  border: solid 1px var(--black4);
+  height: 44px !important;
+  border-radius: 4px;
+  padding: 16px 24px;
+
+  margin-bottom: 16px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+div.left-side {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+div.left-side h1 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+div.left-side h3 {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--gray1);
+}
+
+div.right-side {
+  width: 23px;
+  height: 26px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+div.right-side:hover {
+  opacity: 0.8;
+  width: 24px;
+  height: 28px;
+}
+
+div.right-side:active {
+  opacity: 0.8;
+  width: 24px;
+  height: 28px;
+}
+
+/*
+    RESPONSIVE
+*/
+
+@media (max-width: 1160px) {
+  main {
+    padding: 0px 24px;
+  }
+}
+
+@media (max-width: 900px) {
+  div.users-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 32%);
+    margin-top: 32px;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 750px) {
+  div.users-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 49%);
+    margin-top: 32px;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 500px) {
+  div.users-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    margin-top: 32px;
+    justify-content: space-between;
+  }
+}

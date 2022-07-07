@@ -1,5 +1,6 @@
-import { ArrayDatabase } from "../assets/db.js";
+console.log("carregado");
 
+import { ArrayDatabase } from "./assets/db.js";
 const db = new ArrayDatabase("community");
 window.$db = db;
 
@@ -9,7 +10,8 @@ if (db.getAll().length === 0) {
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu. Ad litora torquent...",
     authorName: "username",
-    authorAvatar: "/comunidade/avatar.png",
+    authorAvatar:
+      "https://zipmex.com/static/d1af016df3c4adadee8d863e54e82331/1bbe7/Twitter-NFT-profile.jpg",
     relativeDate: "3 horas atrás",
     tag,
     tagKind: tag[0],
@@ -48,7 +50,7 @@ for (const entry of all) {
   // so do you really think XSS would make things any worse??!?!
   div.innerHTML = `
     <h3 class="card__title">
-      <a href="/comunidade/view.html#${entry.id}">${entry.title}</a>
+      <a href="./view.html#${entry.id}">${entry.title}</a>
     </h3>
     <p class="card__desc">${entry.description}</p>
     <footer class="card__footer">

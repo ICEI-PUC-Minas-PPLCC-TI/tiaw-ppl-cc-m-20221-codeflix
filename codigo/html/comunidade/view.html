@@ -23,8 +23,11 @@
     />
 
     <!-- Arquivos CSS -->
-    <link rel="stylesheet" href="../assets/template.css" />
+    <link rel="stylesheet" href="./assets/template.css" />
     <link rel="stylesheet" href="./style.css" />
+
+  <script src="../../scripts/middleware.js"></script>
+
   </head>
   <body>
     <!------------------------------------------------------------------------->
@@ -67,12 +70,11 @@
           </svg>
         </div>
         <div class="navs-container">
-          <a href="">Home</a>
-          <a href="">Cursos</a>
-          <a href="">Comunidade</a>
+          <a href="../cursos.html">Cursos</a>
+          <a href="../comunidade/index.html">Comunidade</a>
         </div>
         <div class="profile-container">
-          <a href="">
+          <a href="../perfil.html">
             <img
               src="https://zipmex.com/static/d1af016df3c4adadee8d863e54e82331/1bbe7/Twitter-NFT-profile.jpg"
             />
@@ -91,35 +93,32 @@
       <div class="container">
         <header class="com-top">
           <div class="com-top__left">
-            <h1 class="com-main-title">Criar um Tópico</h1>
-            <div class="main-title-desc">Crie o tópico...</div>
+            <h1 class="com-main-title" data-inject="innerHTML,title">
+              Ler o tópico
+            </h1>
           </div>
           <div class="com-top__right">
-            <a href="/comunidade" class="com-new-topic">&lt; Voltar</a>
+            <a href="index.html" class="com-new-topic">&lt; Voltar</a>
+            <button id="delete" class="com-new-topic" style="background: linear-gradient(271.08deg, #790a10 10.85%, #e53d37 49.08%)">&times; Apagar Tópico</a>
           </div>
         </header>
-        <div id="create-topic-zone">
-          <form id="topic-form">
-            <div class="group">
-              <label for="title">Título: </label>
-              <input type="text" id="title" name="title" />
+        <div id="view-topic-zone">
+          <p class="topic-description" data-inject="innerHTML,description"></p>
+          <footer class="card__footer">
+            <div class="card__author-profile">
+              <img data-inject="src,authorAvatar" alt="Avatar do autor" />
+              <div>
+                <span data-inject="innerHTML,authorName"></span>
+                <time data-inject="innerHTML,relativeDate"></time>
+              </div>
             </div>
-            <div class="group">
-              <label for="title">Tag: </label>
-              <select name="tag" id="tag">
-                <option value="B">Bug</option>
-                <option value="D">Dúvida</option>
-              </select>
+            <div class="card__tag-wrapper">
+              <span class="tag" data-inject="innerHTML,tag"></span>
             </div>
-            <div class="group">
-              <label for="description">Descrição: </label>
-              <textarea name="description" id="" rows="15"></textarea>
-            </div>
-            <button type="submit" class="com-new-topic">Submeter</button>
-          </form>
+          </footer>
         </div>
       </div>
     </div>
   </body>
-  <script type="module" src="/comunidade/new-topic.js"></script>
+  <script type="module" src="view.js"></script>
 </html>

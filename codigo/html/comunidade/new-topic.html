@@ -23,8 +23,9 @@
     />
 
     <!-- Arquivos CSS -->
-    <link rel="stylesheet" href="/assets/template.css" />
-    <link rel="stylesheet" href="/comunidade/style.css" />
+    <link rel="stylesheet" href="./assets/template.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="../../scripts/middleware.js"></script>
   </head>
   <body>
     <!------------------------------------------------------------------------->
@@ -67,12 +68,11 @@
           </svg>
         </div>
         <div class="navs-container">
-          <a href="">Home</a>
-          <a href="">Cursos</a>
-          <a href="">Comunidade</a>
+          <a href="../cursos.html">Cursos</a>
+          <a href="../comunidade/index.html">Comunidade</a>
         </div>
         <div class="profile-container">
-          <a href="">
+          <a href="../perfil.html">
             <img
               src="https://zipmex.com/static/d1af016df3c4adadee8d863e54e82331/1bbe7/Twitter-NFT-profile.jpg"
             />
@@ -91,20 +91,35 @@
       <div class="container">
         <header class="com-top">
           <div class="com-top__left">
-            <h1 class="com-main-title">Comunidade</h1>
-            <div class="main-title-desc">Mais de 600 tópicos criados.</div>
+            <h1 class="com-main-title">Criar um Tópico</h1>
+            <div class="main-title-desc">Crie o tópico...</div>
           </div>
           <div class="com-top__right">
-            <a href="/comunidade/new-topic.html" class="com-new-topic"
-              >Novo Tópico</a
-            >
+            <a href="index.html" class="com-new-topic">&lt; Voltar</a>
           </div>
         </header>
-        <div id="cards-zone">
-          <h1>Carregando...</h1>
+        <div id="create-topic-zone">
+          <form id="topic-form">
+            <div class="group">
+              <label for="title">Título: </label>
+              <input type="text" id="title" name="title" />
+            </div>
+            <div class="group">
+              <label for="title">Tag: </label>
+              <select name="tag" id="tag">
+                <option value="B">Bug</option>
+                <option value="D">Dúvida</option>
+              </select>
+            </div>
+            <div class="group">
+              <label for="description">Descrição: </label>
+              <textarea name="description" id="" rows="15"></textarea>
+            </div>
+            <button type="submit" class="com-new-topic">Submeter</button>
+          </form>
         </div>
       </div>
     </div>
   </body>
-  <script type="module" src="/comunidade/index.js"></script>
+  <script type="module" src="./new-topic.js"></script>
 </html>

@@ -23,8 +23,10 @@
     />
 
     <!-- Arquivos CSS -->
-    <link rel="stylesheet" href="../assets/template.css" />
+    <link rel="stylesheet" href="./assets/template.css" />
     <link rel="stylesheet" href="./style.css" />
+
+    <script src="../../scripts/middleware.js"></script>
   </head>
   <body>
     <!------------------------------------------------------------------------->
@@ -67,12 +69,11 @@
           </svg>
         </div>
         <div class="navs-container">
-          <a href="">Home</a>
-          <a href="">Cursos</a>
+          <a href="../cursos.html">Cursos</a>
           <a href="">Comunidade</a>
         </div>
         <div class="profile-container">
-          <a href="">
+          <a href="../perfil.html">
             <img
               src="https://zipmex.com/static/d1af016df3c4adadee8d863e54e82331/1bbe7/Twitter-NFT-profile.jpg"
             />
@@ -91,32 +92,18 @@
       <div class="container">
         <header class="com-top">
           <div class="com-top__left">
-            <h1 class="com-main-title" data-inject="innerHTML,title">
-              Ler o tópico
-            </h1>
+            <h1 class="com-main-title">Comunidade</h1>
+            <div class="main-title-desc">Mais de 600 tópicos criados.</div>
           </div>
           <div class="com-top__right">
-            <a href="/comunidade" class="com-new-topic">&lt; Voltar</a>
-            <button id="delete" class="com-new-topic" style="background: linear-gradient(271.08deg, #790a10 10.85%, #e53d37 49.08%)">&times; Apagar Tópico</a>
+            <a href="new-topic.html" class="com-new-topic">Novo Tópico</a>
           </div>
         </header>
-        <div id="view-topic-zone">
-          <p class="topic-description" data-inject="innerHTML,description"></p>
-          <footer class="card__footer">
-            <div class="card__author-profile">
-              <img data-inject="src,authorAvatar" alt="Avatar do autor" />
-              <div>
-                <span data-inject="innerHTML,authorName"></span>
-                <time data-inject="innerHTML,relativeDate"></time>
-              </div>
-            </div>
-            <div class="card__tag-wrapper">
-              <span class="tag" data-inject="innerHTML,tag"></span>
-            </div>
-          </footer>
+        <div id="cards-zone">
+          <h1>Carregando...</h1>
         </div>
       </div>
     </div>
   </body>
-  <script type="module" src="/comunidade/view.js"></script>
+  <script type="module" src="./index.js"></script>
 </html>

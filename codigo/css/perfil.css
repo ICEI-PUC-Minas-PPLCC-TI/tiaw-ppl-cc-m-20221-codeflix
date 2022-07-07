@@ -1,0 +1,150 @@
+:root {
+  --white: #eaeaea;
+  --gray1: #b3b0b8;
+  --gray2: #7c7a80;
+  --black1: #121212;
+  --black2: #1e1f24;
+  --black3: #2b2c33;
+  --black4: #454652;
+  --primary: #e85d04;
+}
+
+/*
+  Estilo global
+*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+  color: var(--white);
+  font-family: "Roboto";
+}
+
+body {
+  background-color: var(--black1);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.top {
+  width: 100%;
+  height: 170px;
+  margin-top: 64px;
+  object-fit: fill;
+}
+
+main {
+  margin: 0px auto;
+  margin-top: 112px;
+  max-width: 1170px;
+  width: 100%;
+}
+
+img.pp {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  margin-top: -50px;
+  border-radius: 15px;
+  border: solid 4px var(--white);
+}
+
+.level {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.level h3 {
+  color: var(--gray2);
+  font-size: 24px;
+}
+
+.level h3.active {
+  color: var(--white);
+}
+
+.progress-bar {
+  margin: 0px 12px;
+  width: 170px;
+  height: 10px;
+  background-color: var(--black3);
+  border-radius: 15px;
+}
+
+.progress-bar div {
+  background: linear-gradient(90deg, #e85d04 0%, #e23444 98.86%);
+  border-radius: 15px;
+  width: 70%;
+  height: 100%;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-top: 32px;
+}
+
+.input-container {
+  height: 49px;
+  width: 330px;
+  background-color: var(--black2);
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 16px;
+  border: 1px solid #454652;
+  border-radius: 4px;
+}
+
+input {
+  margin-left: 8px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-size: 14px;
+  font-family: "Roboto";
+  font-weight: 500;
+}
+
+.cta-save {
+  height: 49px;
+  width: 348px;
+  background: linear-gradient(271.08deg, #e8472c 10.85%, #e53d37 49.08%);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  margin-left: 0px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.2s;
+}
+
+.cta-save:hover {
+  opacity: 0.8;
+}
+
+form a {
+  margin-top: 14px;
+  color: var(--gray1);
+  font-size: 14px;
+  font-family: "Poppins";
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+form a:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 900px) {
+  .top {
+    height: 100px;
+  }
+}

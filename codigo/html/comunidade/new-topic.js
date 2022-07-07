@@ -4,12 +4,13 @@ const Item = (args) => ({
   tag: "",
   tagKind: "",
   authorName: "username",
-  authorAvatar: "/comunidade/avatar.png",
+  authorAvatar:
+    "https://zipmex.com/static/d1af016df3c4adadee8d863e54e82331/1bbe7/Twitter-NFT-profile.jpg",
   relativeDate: "3 horas atrás",
   ...args,
 });
 
-import { ArrayDatabase } from "../assets/db.js";
+import { ArrayDatabase } from "./assets/db.js";
 
 const db = new ArrayDatabase("community");
 window.$db = db;
@@ -35,5 +36,5 @@ $form.addEventListener("submit", (event) => {
   const id = Date.now(); // "random" id
   db.insert(id, newItem);
   alert("Enviado!");
-  window.location.replace("/comunidade");
+  window.location.replace("index.html");
 });

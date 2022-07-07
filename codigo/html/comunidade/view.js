@@ -1,4 +1,4 @@
-import { ArrayDatabase } from "../assets/db.js";
+import { ArrayDatabase } from "./assets/db.js";
 
 const db = new ArrayDatabase("community");
 window.$db = db;
@@ -28,5 +28,5 @@ for (const section of sections) {
 document.querySelector("#delete").addEventListener("click", () => {
   db.delete(id);
   alert("Tópico apagado com sucesso.");
-  location.replace("/comunidade");
+  location.replace("index.html");
 });
