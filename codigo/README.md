@@ -1,5 +1,10 @@
-# Código do Projeto
+# 💻 CodeFlix
+🎨 Aprenda programação gratuitamente
 
-Mantenha neste diretório todo o código fonte do projeto. 
+### Instruções
+*Você deve utilizar a extensão **LiveServer** do VSCode para visualizar o site*
 
-Se necessário, descreva neste arquivo aspectos relevantes da estrutura de diretórios criada para organização do código.
+*Não esqueça de limpar o LocalStorage, caso abra em localhost*
+
+### Host
+https://genuine-truffle-630437.netlify.app/html/auth/index.html
