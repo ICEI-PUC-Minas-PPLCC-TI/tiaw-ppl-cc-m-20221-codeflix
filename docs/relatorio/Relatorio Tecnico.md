@@ -274,18 +274,165 @@ Foram criados planos de testes para apresentar o funcionamento das situações r
 
 ## Plano de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+## Testes validar a seção de comunidades
 
-> Enumere quais cenários de testes foram selecionados para teste. Neste
-> tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo
-> de usuários que foi escolhido para participar do teste e as
-> ferramentas utilizadas.
-> 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
+### Teste 1 - Ver Página Principal
 
+- ***Pré condições:*** Página "comunidade" completa.
+- ***Ações:***
+    - Acessar a página da comunidade
+- ***Resultado esperado:***
+    - A página da comunidade deve mostrar todos os tópicos existentes, permitindo o acesso individual a cada um deles. Deve também mostrar um link para criar um novo tópico.
+
+### Teste 2 - Criar Tópico
+
+- ***Pré condições:*** Página "comunidade" completa.
+- ***Ações:***
+    - Acessar a página para criar tópicos.
+    - Completar todos os campos exigidos pelo formulário.
+    - Submeter.
+- ***Resultado esperado:***
+    - No caso de todos os campos do formulário terem sido preenchidos corretamente, o tópico deve ser criado e o usuário, redirecionado à página principal da comunidade, de modo que o novo tópico será mostrado na última posição.
+
+### Teste 3 - Criar Tópico: ERRO
+
+- ***Pré condições:*** Página "comunidade" completa.
+- ***Ações:***
+    - Acessar a página para criar tópicos.
+    - Tentar criar um novo tópico com qualquer um dos campos em branco.
+    - Submeter.
+- ***Resultado esperado:***
+    - No caso em que qualquer um dos campos do formulário não tiver sido devidamente preenchido, a submissão do formulário deve falhar, com a devida mensagem de erro mostrada ao usuário.
+    - Com o erro, o usuário tem a possibilidade de corrigir os campos inválidos e submeter o formulário de modo correto.
+
+### Teste 4 - Apagar tópico
+
+- ***Pré condições:*** Página "comunidade" completa.
+- ***Ações:***
+    - Na página de apagar tópico, clicar no botão “Apagar Tópico”.
+- ***Resultado esperado:***
+    - Ao apagar um tópico, o usuário é redirecionado à página principal da comunidade.
+    - Essa operação não falha tendo em vista que, se o usuário tentar apagar um tópico que não existe, nada acontece (o utilizador é apenas redirecionado à página principal da comunidade).
+
+---
+
+## Testes da seção da página de visualizar vídeo
+
+### **Teste 1 - O botão já foi marcado?**
+
+O primeiro teste deste componente de curtida é testar se o botão já foi clicado pelo usuário.
+
+- ***Pré condições:*** O JavaScript deve estar funcional.
+- ***Ações:***
+    1. Acessar a página
+        - Clicar no botão de curtida de algum comentário
+        - Trocar variável de false para true e vice-versa paras próximas operações no mesmo botão
+            - Ao mesmo tempo trocar a contagem no html do site
+        - Adicionar uma classe de estilo css
+- ***Resultados Esperados***
+    - Ao apertar no coração o número de curtidas subirá em 1 e a condição de execução será alterada, e o estilo do coração alterará para um na cor padrão do site.
+
+### Teste 2 - **Comentar**
+
+A seção de comentar é composta por um input de texto e um botão de ***Publicar*** e este publica as mensagens que o usuário do site desejar.
+
+### **Teste 3 - Comentário OK**
+
+O segundo teste faz a avaliação do conteúdo do comentário e conclui publicando no site.
+
+- ***Pré condições:*** O JavaScript deve estar funcional.
+- ***Ações***
+    1. Acessar a página
+        - Digitar um comentário no input
+        - Clicar no botão de publicar
+        - Analisar o Input do form
+        - Publicar no site
+- ***Resultados Esperados***
+    - Após digitar, ao clicar no botão, o comentário aparecerá embaixo dos outros padrões, mas não poderá ser curtido pelo próprio usuário.
+
+### **Teste 3 - Comentário NÃO OK**
+
+O terceiro teste faz a avaliação do conteúdo do comentário e conclui descartando o comentário
+
+- ***Pré condições:*** O JavaScript está funcional e o comentário está vazio
+- ***Ações***
+    1. Acessar a página
+        - Clicar no botão de publicar
+        - Analisar o Input do form
+            - Não publicar no site
+- ***Resultados Esperados***
+    - Após digitar, ao clicar no botão, o comentário ***Não*** aparecerá embaixo dos outros padrões por estar sem conteúdo dentro, não permitindo a formação de comentário mas não poderá ser curtido pelo próprio usuário.
+
+---
+
+## Testes para validar o login
+
+- ***Pré condições***:
+    - Inputs e JSON aplicados corretamente.
+- ***Ações:***
+    1. Digitar email e senha no input.
+- ***Resultado esperado:***
+    - Aparecer um “alert” que diz ‘Bem vindo, *nome do usuário’.*
+
+---
+
+## Testes para validar o registro
+
+### **Teste 1 - Registrar**
+
+O primeiro teste deste componente é em registrar o novo usuário. 
+
+- ***Pré condições:*** O JavaScript deve estar funcional.
+- ***Ações:***
+    1. Acessar a página de registro ( ou clicar em registrar)
+        - Ao clicar em registro, os dados serão salvos no localStorage e redirecionado automaticamente como usuario autenticado
+
+---
+
+## Testes para validar a página principal
+
+### **Teste 1 - Cursos**
+
+O primeiro teste deste componente é a listagem de cursos em conjunto com o progresso do usuario
+
+- ***Pré condições:*** O JavaScript deve estar funcional.
+- ***Ações:***
+    1. Acessar a página inicial
+        - Uma lista chamado “Seu caminho”, com cursos para terminar de assistir
+        - A evolução do usuário na plataforma
+        - Responsividade
+
+---
+
+## Testes para validar a página Perfil
+
+### **Teste 1 - Perfil**
+
+Mostrar o level atual do usuario e alterar o email e usuário
+
+- ***Pré condições:*** O JavaScript deve estar funcional.
+- ***Ações:***
+    1. Clicar na foto de perfil que fica disponível no header da página
+        - Mostrar Level do usuário
+        - Mostrar um formulário para alterar email e usuário.
+        - Responsividade
+
+---
+
+## Testes para validar a página Lista de Aulas
+
+### **Teste 1 - Mostrar lista de vídeos**
+
+Mostrar uma lista de vídeos vistos e não vistos do usuário sobre o conteúdo selecionado
+
+- ***Pré condições:*** O JavaScript deve estar funcional.
+- ***Ações:***
+    1. Escolher algum curso de “Seu caminho”
+        - Mostrar o nome do conteúdo clicado
+        - Mostrar a lista de aulas disponíveis, assistido ou ainda não.
+        - Responsividade
+
+---
 # Referências
 
  **Links Úteis**:
