@@ -299,11 +299,6 @@ Foram criados planos de testes para apresentar o funcionamento das situações r
 
 # Referências
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Inclua todas as referências (livros, artigos, sites, etc) utilizados
-> no desenvolvimento do trabalho.
-> 
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
+ **Links Úteis**:
+ - [Figma Community](https://www.figma.com/community)
+ - [StackOverflow](https://pt.stackoverflow.com/)
